@@ -1,0 +1,304 @@
+
+body {
+	text-align:center;
+	color: #ffd200;
+	font-family: "Rambla";
+	margin: auto;
+	font-size: 24pt;
+	background-color: #0c0b27;
+	background: url('img/mask.png') center top repeat-y, url("img/background.jpg") right top repeat;
+	background-size: 100%, auto;
+
+}
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+		padding:5px;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+	 display: none; /* Hidden by default */
+	 position: fixed; /* Stay in place */
+	 z-index: 1; /* Sit on top */
+	 padding-top: 100px; /* Location of the box */
+	 left: 0;
+	 top: 0;
+	 width: 100%; /* Full width */
+	 height: 100%; /* Full height */
+	 overflow: auto; /* Enable scroll if needed */
+	 background-color: rgb(0,0,0); /* Fallback color */
+	 background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	 margin: auto;
+	 display: block;
+	 width: 80%;
+	 height:80%
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	 margin: auto;
+	 display: block;
+	 width: 80%;
+	 max-width: 700px;
+	 text-align: center;
+	 color: #ccc;
+	 padding: 10px 0;
+	 height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+	 -webkit-animation-name: zoom;
+	 -webkit-animation-duration: 0.6s;
+	 animation-name: zoom;
+	 animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	 from {-webkit-transform:scale(0)}
+	 to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+	 from {transform:scale(0)}
+	 to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+	 position: absolute;
+	 top: 15px;
+	 right: 35px;
+	 color: #f1f1f1;
+	 font-size: 40px;
+	 font-weight: bold;
+	 transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	 color: #bbb;
+	 text-decoration: none;
+	 cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+	 .modal-content {
+			 width: 100%;
+			 height:10%;
+	 }
+}
+
+
+
+
+
+.image123{
+	margin:auto;
+	width:930px;
+	height:330px;
+	margin-bottom:50px;
+	margin-top:30px;
+
+}
+.imgContainer{
+    float:left;
+
+}
+
+.myImg{
+
+	width: 300px;
+	height: 150px;
+}
+
+.nav{
+    border-width:1px 0;
+    margin:auto;
+    padding:0px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding-top: 20px;
+		padding-bottom: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-decoration: none;
+}
+.nav a:hover{
+	color:white;
+}
+
+a:hover{
+	color:white;
+}
+
+div.cont {
+	height:60px;
+	width:200px;
+	margin:auto;
+}
+p.container{
+	margin:auto;
+	margin-top:30px;
+	display:inline;
+}
+
+p.subtitle {
+		font-weight:bold;
+		color:white;
+		font-size:28pt;
+		width:50%;
+		margin:auto;
+		text-align: center;
+		margin-top:30px;
+		margin-bottom:10px
+}
+
+.social {
+	border-radius: 100px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.socialmouseover {
+	display:none;
+	border-radius: 100px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.container:hover .social{
+	display: none;
+}
+
+.container:hover .socialmouseover {
+ display: inline-block;
+ border-radius: 100px;
+}
+
+.twitterv1, .twitterv2 {
+	width:60px;
+	height:60px;
+}
+
+.faq {
+	text-align: left;
+	width:60%;
+	margin:auto;
+	height: 100%;
+	margin-bottom: 30px;
+}
+
+
+h2 {
+	margin-top: 20pt;
+	font-size: 24pt;
+	color:white;
+}
+
+.answer {
+	width:95%;
+	margin: auto;
+	font-size: 20pt;
+
+}
+
+ul {
+text-align:left;
+width: 50%;
+margin:auto;
+}
+
+
+li {
+
+	margin: auto;
+	width: 80%;
+}
+
+.testing{
+	width:80%;
+	margin: auto;
+	margin-top: 20px;
+}
+input[type=email] {
+	font-family: 'Rambla';
+	color: #ffd200;
+	width:350px;
+	background-color: transparent;
+	font-size: 18pt;
+	border-color: #ffd200;
+	margin-top: 10px;
+}
+
+input[type=submit] {
+	margin:auto;
+	font-size: 10pt;
+	color: #ffd200;
+	height: 20px;
+	width: 100px;
+	background: transparent;
+	border-color: #ffd200;
+	border-style: solid;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+img.title{
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+
+
+
+a{
+	color:#ffd200;
+}
+
+a:visited a:hover{
+	color: white;
+}
+
+.steam {
+	border: 2px solid white;
+	box-shadow:
+		inset 0 0 0 2px black;
+	border-color: white;
+	background: #2d2e30;
+	margin-left:10px;
+	border-radius: 10px;
+	cursor: pointer;
+	padding-left:5px ;
+	padding-right: 10px;
+}
+
+
+
+.list {
+	margin:auto;
+	width:100%;
+}
+
+
+.hellotoyourthelurker{
+	character:"Peri-Banu";
+	age:"unknown";
+	location:"Isfahan";
+}
