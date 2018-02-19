@@ -169,6 +169,19 @@ p.subtitle {
 		margin-bottom:10px
 }
 
+.pressImgs{
+	width:515px;
+	margin:0px auto;
+	height:340px;
+	margin-bottom:150px;
+}
+
+
+.pressImgs img{
+	float:left;
+}
+
+
 .social {
 	border-radius: 100px;
 	margin-right:10px;
