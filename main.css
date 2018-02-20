@@ -217,6 +217,14 @@ p.subtitle {
 	margin-bottom: 30px;
 }
 
+.mycode {
+	color:white;
+	font-size: 14pt;
+	word-break: break-all;
+	display: inline-flex;
+	width:60%;
+	font-family: monospace;
+}
 
 h2 {
 	margin-top: 20pt;
@@ -228,7 +236,6 @@ h2 {
 	width:95%;
 	margin: auto;
 	font-size: 20pt;
-
 }
 
 ul {
